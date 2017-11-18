@@ -11,5 +11,5 @@ https://goo.gl/TAA7Pu
 
 ## Usage
 ### Adding Dependency 
-Add this to ~~~ build.gradle ~~~ Module:app
+Add this to ``` build.gradle ``` Module:app
 
