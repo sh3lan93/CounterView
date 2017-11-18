@@ -1,4 +1,4 @@
-# CounterView [ ![Download](https://api.bintray.com/packages/sh3lan93/Android/CounterView/images/download.svg) ](https://bintray.com/sh3lan93/Android/CounterView/_latestVersion)
+# CounterView [ ![Download](https://api.bintray.com/packages/sh3lan93/Android/CounterView/images/download.svg) ](https://bintray.com/sh3lan93/Android/CounterView/_latestVersion) [![](https://jitpack.io/v/sh3lan93/CounterView.svg)](https://jitpack.io/#sh3lan93/CounterView)
 
 Android View that have a value that can be incremented and decremented by one.
 
