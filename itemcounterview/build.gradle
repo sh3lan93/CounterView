@@ -1,10 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
 
+ext{
+    PUBLISH_GROUP_ID = 'com.mohamed.shalan'
+    PUBLISH_ARTIFACT_ID = 'inc-dec-view'
+    PUBLISH_VERSION = '1.0'
+}
 android {
     compileSdkVersion 26
-
-
-
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 26
@@ -32,3 +36,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
