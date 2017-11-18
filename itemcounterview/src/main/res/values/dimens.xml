@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inc_dec_counter_view_stroke_width">1dp</dimen>
+    <dimen name="inc_dec_counter_view_corner_radius">20dp</dimen>
+    <dimen name="inc_dec_counter_view_def_padding">10dp</dimen>
+    <dimen name="inc_dec_counter_view_button_background_radius">50dp</dimen>
+</resources>

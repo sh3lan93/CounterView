@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IncDecView">
+        <attr name="inc_icon" format="reference"/>
+        <attr name="dec_icon" format="reference"/>
+        <attr name="view_background" format="reference|color"/>
+        <attr name="inc_dec_button_color" format="reference|color"/>
+        <attr name="border_width" format="reference|dimension"/>
+        <attr name="border_color" format="reference|color"/>
+        <attr name="startCounterValue" format="reference|string"/>
+        <attr name="counterValueColor" format="reference|color"/>
+    </declare-styleable>
+</resources>
