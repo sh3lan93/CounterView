@@ -13,3 +13,17 @@ https://goo.gl/TAA7Pu
 ### Adding Dependency 
 Add this to ``` build.gradle ``` Module:app
 
+```
+compile 'com.mohamed.shalan:inc-dec-view:1.0'
+```
+
+for maven usage 
+```
+<dependency>
+  <groupId>com.mohamed.shalan</groupId>
+  <artifactId>inc-dec-view</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
+</dependency>
+```
+
