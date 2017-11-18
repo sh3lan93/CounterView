@@ -11,6 +11,17 @@ https://goo.gl/TAA7Pu
 
 ## Usage
 ### Adding Dependency 
+Add this to ```build.gradle``` Project level 
+```
+allprojects {
+  repositories {
+    maven{
+      url 'https://dl.bintray.com/sh3lan93/Android'
+    }
+  }
+}
+```
+
 Add this to ``` build.gradle ``` Module:app
 
 ```
