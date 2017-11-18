@@ -50,20 +50,19 @@ for maven usage
 ```java
 IncDecView incDecView = findViewById(R.id.itemCounter);
 incDecView.setIncButtonIcon(R.drawable.ic_add);
-        incDecView.setDecButtonIcon(R.drawable.ic_remove);
-        incDecView.setBorderColor(android.R.color.darker_gray);
-        incDecView.setBorderWidth(R.dimen.inc_dec_counter_view_stroke_width);
-        incDecView.setStartCounterValue(R.string._5);
-        incDecView.setCounterListener(new CounterListener() {
-            @Override
-            public void onIncClick(String value) {
-                Toast.makeText(MainActivity.this, value, Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onDecClick(String value) {
-                Toast.makeText(MainActivity.this, value, Toast.LENGTH_SHORT).show();
-            }
-        });
+incDecView.setDecButtonIcon(R.drawable.ic_remove);
+incDecView.setBorderColor(android.R.color.darker_gray);
+incDecView.setBorderWidth(R.dimen.inc_dec_counter_view_stroke_width);
+incDecView.setStartCounterValue(R.string._5);
+incDecView.setCounterListener(new CounterListener() {
+   @Override
+   public void onIncClick(String value) {
+      Toast.makeText(MainActivity.this, value, Toast.LENGTH_SHORT).show();
+   }
+   
+   @Override
+   public void onDecClick(String value) {
+      Toast.makeText(MainActivity.this, value, Toast.LENGTH_SHORT).show();
+   }});
 ```
 
