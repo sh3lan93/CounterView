@@ -27,3 +27,20 @@ for maven usage
 </dependency>
 ```
 
+### Adding The View
+- XML
+
+```xml
+<com.shalan.mohamed.itemcounterview.IncDecView
+        android:id="@+id/itemCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:border_color="@android:color/holo_red_dark"
+        app:border_width="5dp"
+        app:dec_icon="@drawable/ic_remove"
+        app:inc_icon="@drawable/ic_add"
+        app:counterValueColor="@android:color/holo_orange_dark"
+        app:inc_dec_button_color="@drawable/btn_background"
+        app:startCounterValue="5"/>
+```
+
