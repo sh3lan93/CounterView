@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-
+group = 'com.mohamed.shalan' 
 ext{
     PUBLISH_GROUP_ID = 'com.mohamed.shalan'
     PUBLISH_ARTIFACT_ID = 'inc-dec-view'
