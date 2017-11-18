@@ -43,6 +43,6 @@ for maven usage
         app:inc_dec_button_color="@drawable/btn_background"
         app:startCounterValue="5"/>
 ```
-This is the screenshot of previous code 
-<img src="https://github.com/sh3lan93/CounterView/blob/master/device-2017-11-18-215610.png" width="150">
+- This is the screenshot of previous code 
+<img src="https://github.com/sh3lan93/CounterView/blob/master/device-2017-11-18-215610.png" width="250">
 
