@@ -66,3 +66,18 @@ incDecView.setCounterListener(new CounterListener() {
    }});
 ```
 
+### Java Methods
+|Method|Description|
+|---|---|
+|```setStartCounterValue(String startValue)```| for setting the start value of counter |
+|```setStartCounterValue(@StringRes int startValue)```| for setting the start value of counter|
+|```setCounterListener(CounterListener counterListener)```| for setting listener for vounter value when increment or decrement|
+|```setIncButtonIcon(@DrawableRes int incButtonIcon)```| for setting the icon of increment button|
+|```setDecButtonIcon(@DrawableRes int decButtonIcon)```| for setting the icon of decrement button|
+|```setBorderWidth(@DimenRes int strokeWidth)```| for setting the border width of the view|
+|```setBorderWidth(float value)```| for setting the border width of the view|
+|```setBorderColor(@ColorRes int strokeColor)```| for setting view border color|
+|```setBorderColor_(int color)```| for setting view border color|
+|```String getCounterValue()```| for getting counter value|
+
+
