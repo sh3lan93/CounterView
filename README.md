@@ -1,4 +1,4 @@
-# CounterView [ ![Download](https://api.bintray.com/packages/sh3lan93/Android/CounterView/images/download.svg) ](https://bintray.com/sh3lan93/Android/CounterView/_latestVersion) [![](https://jitpack.io/v/sh3lan93/CounterView.svg)](https://jitpack.io/#sh3lan93/CounterView) [![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=14) 
+# CounterView [ ![Download](https://api.bintray.com/packages/sh3lan93/Android/CounterView/images/download.svg) ](https://bintray.com/sh3lan93/Android/CounterView/_latestVersion) [![](https://jitpack.io/v/sh3lan93/CounterView.svg)](https://jitpack.io/#sh3lan93/CounterView) [![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=14) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CounterView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6476)
 
 Android View that have a value that can be incremented and decremented by one.
 
